@@ -123,7 +123,7 @@ public class LazyDeveloper1
     static void main(String[] args)
     {
         List<String> words=Arrays.asList("a","e","i","o","u","Jee",
-                "Jeevan","Champions","NammaRcb","Kohli");
+                "Jeevan","2025Champions","NammaRcb","Kohli");
         List<String> result= words.stream()
                 .filter(s->s.length()>3)
                 .map(String::toUpperCase)
